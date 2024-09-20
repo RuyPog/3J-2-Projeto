@@ -5,3 +5,16 @@
     --cor-secundaria: #CB80AB;
     --fonte: "Nunito Sans", sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:var(--cor-de-fundo);
+    color:var(--cor-primaria);
+}
+footer{
+    font-size: 70px;
+    padding: 30px;
+
+}
