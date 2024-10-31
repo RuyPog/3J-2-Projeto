@@ -30,6 +30,15 @@ async function quantidadeusuarios(){
                 family: getCSS('--fonte'),
                 size: 30
             }
+        },
+        xaxis:{
+            tickfont: tickfont,
+            title:{
+                text: 'Nome das redes sociais',
+                font:{
+                    color: getCSS('--cor-secundaria')
+                }
+            }
         }
     }
 
