@@ -39,6 +39,15 @@ async function quantidadeusuarios(){
                     color: getCSS('--cor-secundaria')
                 }
             }
+        },
+        yaxis:{
+            tickfont: tickfont,
+            title:{
+                text: 'Milhões de usuários ativos',
+                font:{
+                    color: getCSS('--cor-secundaria')
+                }
+            }
         }
     }
 
